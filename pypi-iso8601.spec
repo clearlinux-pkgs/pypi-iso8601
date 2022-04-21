@@ -4,7 +4,7 @@
 #
 Name     : pypi-iso8601
 Version  : 1.0.2
-Release  : 69
+Release  : 70
 URL      : https://files.pythonhosted.org/packages/28/97/d2d3d96952c77e7593e0f4a634656fb384f7282327f7fef74b726b3b4c1c/iso8601-1.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/28/97/d2d3d96952c77e7593e0f4a634656fb384f7282327f7fef74b726b3b4c1c/iso8601-1.0.2.tar.gz
 Summary  : Simple module to parse ISO 8601 dates
@@ -14,9 +14,9 @@ Requires: pypi-iso8601-license = %{version}-%{release}
 Requires: pypi-iso8601-python = %{version}-%{release}
 Requires: pypi-iso8601-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : py
 BuildRequires : pypi(poetry_core)
-BuildRequires : pytest
+BuildRequires : pypi-py
+BuildRequires : pypi-pytest
 
 %description
 Simple module to parse ISO 8601 dates
@@ -58,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649766693
+export SOURCE_DATE_EPOCH=1650520456
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
