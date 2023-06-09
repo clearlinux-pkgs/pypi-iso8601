@@ -1,5 +1,5 @@
 PKG_NAME := pypi-iso8601
-URL = https://files.pythonhosted.org/packages/31/8c/1c342fdd2f4af0857684d16af766201393ef53318c15fa785fcb6c3b7c32/iso8601-1.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/27/23/97cd1cb5792ece594ec5cf16cc4921f91838c689c82c8078ee442751f8dc/iso8601-2.0.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
