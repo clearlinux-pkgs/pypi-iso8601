@@ -5,7 +5,7 @@
 #
 Name     : pypi-iso8601
 Version  : 2.1.0
-Release  : 86
+Release  : 87
 URL      : https://files.pythonhosted.org/packages/b9/f3/ef59cee614d5e0accf6fd0cbba025b93b272e626ca89fb70a3e9187c5d15/iso8601-2.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b9/f3/ef59cee614d5e0accf6fd0cbba025b93b272e626ca89fb70a3e9187c5d15/iso8601-2.1.0.tar.gz
 Summary  : Simple module to parse ISO 8601 dates
